@@ -1,0 +1,12 @@
+.tvlist {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.tv_list {
+  display: grid; /* Grid 사용 */
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px; /* 포스트 간의 간격 */
+  padding-top: 30px;
+}

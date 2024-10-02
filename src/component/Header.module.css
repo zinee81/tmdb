@@ -1,0 +1,42 @@
+header {
+  height: 65px;
+  background-color: #032541;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.nav {
+  width: 70%;
+  display: flex;
+}
+
+.gnb {
+  width: 30%;
+}
+
+.nav img {
+  width: 150px;
+  height: 21px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  color: #ffffff;
+  padding: 0 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}

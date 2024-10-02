@@ -1,0 +1,13 @@
+.trending {
+  padding: 20px;
+  background-color: #ffffff;
+}
+.trending h2 {
+  padding: 10px;
+}
+.movie_list {
+  display: flex;
+  overflow-x: auto;
+  max-width: 1200px;
+  margin: auto;
+}

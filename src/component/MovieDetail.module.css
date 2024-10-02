@@ -1,0 +1,83 @@
+.detail {
+  padding: 50px 0;
+}
+
+.dt_main {
+  background-color: #222222;
+}
+.dt_main .wrapper {
+  max-width: 1200px;
+  padding: 30px;
+  display: flex;
+  margin: auto;
+}
+
+.dt_main img {
+  border-radius: 10px;
+}
+
+.dt_info {
+  padding: 30px;
+  color: #ffffff;
+}
+
+.dt_info .title {
+  color: #cccccc;
+  font-size: 30px;
+}
+.dt_info b {
+  color: #ffffff;
+  font-size: 35px;
+}
+.summary {
+  color: #eeeeee;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 30px 0 10px 0;
+}
+.dt_cast {
+  max-width: 1200px;
+  background-color: #ffffff;
+  margin: auto;
+}
+.credits {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.card_container {
+  max-width: 1200px;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+  width: 135px;
+}
+
+.card img {
+  width: 135px;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.card_content {
+  padding: 15px;
+}
+
+.card_content h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card_content p {
+  font-size: 14px;
+  color: gray;
+}
