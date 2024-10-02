@@ -5,7 +5,7 @@ import styles from "./MovieDetail.module.css";
 export default function MovieDetail() {
   const { state: id } = useLocation();
 
-  console.log(id);
+  console.log(id.id);
 
   const initState = {
     // api를 호출했을 때 로딩 유무
@@ -38,14 +38,14 @@ export default function MovieDetail() {
       const key = import.meta.env.VITE_TMDB_TOKEN;
       const api_key = import.meta.env.VITE_TMDB_API_KEY;
 
-      const response = await fetch(`https://api.themoviedb.org/3/tv/${id.id}?language=ko-KR`, {
+      const response = await fetch(`https://api.themoviedb.org/3/movie/${id.id}?language=ko-KR`, {
         headers: {
           Authorization: key,
         },
       });
       const movie = await response.json();
 
-      const c_response = await fetch(`https://api.themoviedb.org/3/tv/${id.id}/credits?language=ko-KR&api_key=${api_key}`, {
+      const c_response = await fetch(`https://api.themoviedb.org/3/movie/${id.id}/credits?language=ko-KR&api_key=${api_key}`, {
         headers: {
           Authorization: key,
         },
