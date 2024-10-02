@@ -58,4 +58,25 @@
 
 5. 구현화면
    - 메인 트렌딩 리스트
-   -
+   - ![image](https://github.com/user-attachments/assets/0662ee1a-845d-48af-b865-d1999b43915b)
+  
+   - 검색 결과 리스트
+   - ![image](https://github.com/user-attachments/assets/c47de566-e67a-445d-857b-c581c01530c0)
+  
+   - 영화 리스트
+   - ![image](https://github.com/user-attachments/assets/95e0b085-f893-472e-94f8-500410313ec7)
+  
+   - tv 리스트
+   - ![image](https://github.com/user-attachments/assets/c8fdece6-284c-41c6-bd8c-4ccbd6207667)
+  
+   - 영화 상세보기 화면
+   - ![image](https://github.com/user-attachments/assets/bc80ee73-9857-4143-9ac5-03654f4c7409)
+  
+   - 티비 상세보기 화면
+   - ![image](https://github.com/user-attachments/assets/2f3fa737-cb7c-418f-a910-d368fa6fa86f)
+
+
+
+
+
+
