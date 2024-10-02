@@ -4,6 +4,20 @@
 
 -
 
+2. 프로젝트 정보
+
+- 트렌딩 리스트, 검색, 영화목록, TV목록, 영화와 TV 상세보기 화면 구현
+
+3. 개발환경
+
+- Front : React
+- Back-end : 제공된 API 활용
+- 버전 및 이슈관리 : Github, Github Issues, Github Project
+- 협업 툴 : Postman Github
+- 서비스 배포 환경 : Netlify
+
+4. 프로젝트 구조
+
 ```
 📦src
  ┣ 📂assets
@@ -41,8 +55,3 @@
  ┣ 📜index.css
  ┗ 📜main.jsx
 ```
-
-2. 프로젝트 정보
-
-- 리액트
-- 트렌딩 리스트, 검색, 영화목록, TV목록, 영화와 TV 상세보기 화면 구현
