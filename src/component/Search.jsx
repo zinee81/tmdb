@@ -55,7 +55,7 @@ export default function Search() {
 
   return (
     <div className={styles.movielist}>
-      <h2>영화 검색 결과</h2>
+      <h2>"{keyword.keyword}" 검색 결과</h2>
       {/* 1. 로딩중일 때 */}
       {state.loading && <p>로딩중...</p>}
       {/* 2. 에러가 났을 때 */}
